@@ -1,0 +1,78 @@
+/* Estilos para la tarjeta */
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+    height: 400px;
+    border: 2px solid #4a24b4;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(60, 60, 60)
+  }
+  
+  .tarjeta-imagen {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .tarjeta-contenido {
+    flex: 1;
+  }
+  
+  .tarjeta-titulo {
+    margin: 0;
+    font-size: 1.5rem;
+    border-top: 1px solid black;
+    margin-top: 5px;
+  }
+  
+  .tarjeta-descripcion {
+    margin: 0;
+    margin-bottom: 10px;
+    height: 100px;
+    overflow: hidden;
+  }
+  
+  .tarjeta-precio {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .boton-agregar {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .boton-agregar:hover {
+    background-color: #45a049;
+  }
+  .boton-quitar {
+    background-color: #af4c4c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .boton-quitar:hover {
+    background-color: #a04545;
+  }
+  
+  /* Estilos para el carrito */
+  .carrito {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
